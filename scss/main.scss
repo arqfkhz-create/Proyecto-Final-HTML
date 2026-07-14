@@ -1,0 +1,18 @@
+// sass --watch scss/main.scss css/style.css
+
+@use "utilities/resets";
+@use "utilities/variables";
+@use "utilities/mixins";
+
+@use "components/header";
+@use "components/footer";
+
+@use "pages/index";
+@use "pages/menu";
+@use "pages/reservas";
+@use "pages/nosotros";
+@use "pages/reclamos";
+
+body {
+  background: red;
+}
