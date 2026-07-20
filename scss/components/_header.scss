@@ -1,0 +1,38 @@
+.navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.banner-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.banner {
+  position: sticky;
+  top: 56px;
+  background: #e60023;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 40px;
+  align-items: center;
+  display: flex;
+}
+
+.banner-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLoop 8s linear infinite;
+}
+
+
+
+/* animación real */
+@keyframes scrollLoop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
