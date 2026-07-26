@@ -1,0 +1,83 @@
+@use  "../utilities/variables" as v;
+
+.menu {
+    margin-top: 3rem;
+}
+
+.titulo-menu{
+    text-align: center;
+    margin-bottom: 3rem;
+
+    h1{
+        margin-bottom: 15px;
+        font-family: v.$fuenteTitulos;
+    }
+
+    p{
+        max-width: 60vw;
+        margin: auto;
+    }
+}
+
+.categorias-sticky {
+    position: sticky;
+    top: 0px;   
+    z-index: 999;
+    background: v.$colorLight;
+    padding: 1rem 0;
+}
+
+.titulo-categorias {
+    display: flex;
+    justify-content: center;
+    font-family: v.$fuenteTitulos;
+    font-size: 1rem;
+    color: v.$colorLight;
+}
+
+.contenedor-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.card-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cinta{
+    position: absolute;
+    top: 15px;
+    right: -45px;
+    width: 160px;
+    padding: .7rem 0;
+    background: #d62828;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: .5rem;
+    transform: rotate(45deg);
+}
+
+.info h3 {
+    font-family: v.$fuenteTitulos;
+    font-size: 1.5rem;
+}
+
+.imagen img {
+    object-fit: cover;
+    border-radius: 3%;
+    width: 10rem;
+}
+
+#promo-card {
+    background-color: v.$colorDark;
+    color: v.$colorLight;
+}

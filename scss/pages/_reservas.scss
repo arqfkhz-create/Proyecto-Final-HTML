@@ -1,0 +1,23 @@
+@use  "../utilities/variables" as v;
+
+.pagina-reservas {
+    background-color: v.$colorNeutral;
+}
+
+.btn-formulario {
+    font-family: v.$fuentePrincipal;
+    color: v.$colorDark;
+    background: transparent;
+    border-radius: 6px;
+    border: 2px dashed v.$colorNeutral;
+    padding: 10px;
+}
+
+.btn-formulario:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
+

@@ -1,0 +1,35 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+footer {
+    background-color: v.$colorNeutral;
+}
+
+.footer-container {
+    @include m.flex(row, wrap, space-between, center, 20px);
+    border-bottom: .05rem dashed v.$colorPrimario;
+    margin-top: 3rem;
+}
+
+.logo-footer img {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 1rem;
+    align-self: flex-start;
+    font-size: 2rem;
+    color: v.$colorPrimario;
+}
+
+.info-footer {
+    border-bottom: .05rem dashed v.$colorPrimario;
+}
+
+.info-footer, 
+.copy {
+    color: v.$colorPrimario;
+}

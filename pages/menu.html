@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria La Rinconada</title>
+
+    <!-- SEO --> 
+    <meta name="keywords" content="pizzería delivery Palermo Buenos Aires, pizza masa madre Palermo, delivery pizza artesanal Buenos Aires, mejor pizza Palermo domicilio, pizza fermentación natural Buenos Aires">
+    <meta name="description" content="">
+    <meta name="owner" content="Pizzería La Rinconada">
+    <meta name="author" content="FHCode">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/webp" href="./assets/logos/logo.webp">
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:title" content="Pizzería La Rinconada">
+    <meta property="og:description" content="La mejor pizza artesanal en Palermo, Buenos Aires">
+    <meta property="og:image" content="./assets/logos/logo.webp">
+    <meta property="og:url" content="">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/style.css">
+
+
+</head>
+<body>
+
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pizzeria La Rinconada</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active"aria-current="page" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+         <!-- BANNER PROMOCIONAL -->
+        <div class="banner">
+            <div class="banner-track">
+                <h2 class="banner-title"> 20% OFF abonando en efectivo — Envío gratis — Promo válida hoy  20% OFF abonando en efectivo — Envío gratis — Promo válida hoy - 20% OFF abonando en efectivo — Envío gratis — Promo válida hoy</h2>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="container menu">
+            <div class="titulo-menu">
+                <h1>Nuestro Menu</h1>
+                <p>Descubre nuestras pizzas, calzones, empanadas, promociones y mucho más, preparados con ingredientes frescos y el auténtico sabor de la casa.</p>
+            </div>
+            <!-- CATEGORIAS -->
+                <section class="categorias" id="categorias-menu">
+                    <div class="container">
+                        <div class="categorias-grid">
+                            <a class="categoria-card" href="#pizzas">Pizzas</a>
+                            <a class="categoria-card" href="#calzones">Calzones</a>
+                            <a class="categoria-card" href="#empanadas">Empanadas</a>
+                            <a class="categoria-card" href="#bebidas">Bebidas</a>
+                            <a class="categoria-card" href="#postres">Postres</a>
+                            <a class="categoria-card" href="#promos">Promos</a>
+                        </div>
+                    </div>
+                </section>
+        </section>
+        <section class="container">
+
+            <!--PROMOS-->
+            <h2 class="titulo-categorias" id="promos">Promos</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu" id="promo-card">
+                    <div class="info">
+                        <h3>Pizza Doble Muzza</h3>
+                        <p>Masa madre, mozzarella premium.</p>
+                        <span class="precio">$12.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/pizza-promo.webp" alt="Pizza Promo">
+                    </div>
+                </article>
+
+                <article class="card-menu" id="promo-card">
+                    <div class="info">
+                        <h3>Calzon Promo</h3>
+                        <p>Tomate, mozzarella, albondigas, panceta, verdeo y cheddar.</p>
+                        <span class="precio">$9.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/calzon-promo.webp" alt="Calzon Promo">
+                    </div>
+                </article>
+            </div>
+
+            <!--PIZZAS-->
+            <h2 class="titulo-categorias" id="pizzas">Pizzas</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu">
+                    <span class="cinta">La más vendida!</span>
+                    <div class="info">
+                        <h3>Pizza Margarita</h3>
+                        <p>Masa madre, mozzarella premium, tomates cherries y albahaca fresca.</p>
+                        <span class="precio">$8.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/pizza-margarita.webp" alt="Pizza Margarita">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Pizza Bajonera Cheddar</h3>
+                        <p>Tomate, mozzarella, albondigas, panceta, verdeo y cheddar.</p>
+                        <span class="precio">$9.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/pizza-bajonera-cheddar.webp" alt="Pizza Bajonera Cheddar">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Pizza Fuggazeta</h3>
+                        <p>Masa madre, muzarella premium, cuartirolo y cebolla.</p>
+                        <span class="precio">$12.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/pizza-fuggazeta.webp" alt="Pizza Fuggazeta">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Pizza Caribe Amarillo</h3>
+                        <p>Tomate, mozzarella, platano y albondigas.</p>
+                        <span class="precio">$10.500</span>
+                    </div>
+
+                    <div class="imagen">
+                        <img src="../assets/imgs/pizza-caribe-amarillo.webp" alt="Pizza Caribe Amarillo">
+                    </div>
+                </article>
+            </div>
+                
+            <!--CALZONES-->
+            <h2 class="titulo-categorias" id="calzones">Calzones</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu">
+                    <span class="cinta">La más vendida!</span>
+                    <div class="info">
+                        <h3>Calzon Bajonera Cheddar</h3>
+                        <p>Tomate, mozzarella, albondigas, panceta, verdeo y cheddar.</p>
+                        <span class="precio">$12.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/calzon-cheddar-promo.jpeg" alt="Calzon Cheddar">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Calzon Meatballs</h3>
+                        <p>Tomate, mozzarella y albondigas.</p>
+                        <span class="precio">$9.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/calzon-promo.webp" alt="Calzon de Albondigas">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Calzon Funghi</h3>
+                        <p>Tomate, mozzarella, panceta y champignones.</p>
+                        <span class="precio">$12.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/calzon-funghi.webp" alt="Calzon Funghi">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Calzon Jamon y Morron</h3>
+                        <p>Tomate, mozzarella, jamon cocido y morrones asados.</p>
+                        <span class="precio">$9.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/calzon-jamonymorron.webp" alt="Calzon Jamon y Morron">
+                    </div>
+                </article>
+            </div>
+
+            <!--EMPANADAS-->
+            <h2 class="titulo-categorias" id="empanadas">Empanadas</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Empanada Humita</h3>
+                        <p>Empanada rellena de salsa bechamel, maiz, batata y queso fresco.</p>
+                        <span class="precio">$1.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/empanada-humita.webp" alt="Empanada Humita">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Empanada Cheesedog</h3>
+                        <p>Empanada de salchicha, panceta y cheddar.</p>
+                        <span class="precio">$1.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/empanada-cheesedog.webp" alt="Empanada Cheesedog">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Empanada Queso y Cebolla</h3>
+                        <p>Empanada rellena queso y cebolla caramelizada.</p>
+                        <span class="precio">$12.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/empanada-quesoycebolla.webp" alt="Empanada Queso y Cebolla">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Empanada Verdura</h3>
+                        <p>Empanada rellena de calabaza, espinaca y choclo.</p>
+                        <span class="precio">$1.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/empanada-verdura.webp" alt="Empanada Verdura">
+                    </div>
+                </article>
+            </div>
+
+            <!--BEBIDAS-->
+            <h2 class="titulo-categorias" id="bebidas">Bebidas</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Jugos Naturales</h3>
+                        <p>Elegi entre nuestros juegos con ingredientes frescos.</p>
+                        <span class="precio">$1.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/jugos-bebidas.webp" alt="Jugos">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Gaseosas Caseras</h3>
+                        <p>Eligue entre nuestras gaseosas caseras</p>
+                        <span class="precio">$1.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/gaseosas-bebidas.webp" alt="Gaseosas caseras">
+                    </div>
+                </article>
+            </div>
+
+            <!--POSTRES-->
+            <h2 class="titulo-categorias" id="postres">Postres</h2>
+            <div class="contenedor-cards">
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Alfajor de Nuez</h3>
+                        <p>Harina de almendras, relleno de dulce de leche y un corazon de bariloche.</p>
+                        <span class="precio">$3.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/alfajor-postres.webp" alt="Alfajor">
+                    </div>
+                </article>
+
+                <article class="card-menu">
+                    <div class="info">
+                        <h3>Budin Vegano</h3>
+                        <p>Budin de zanahoria vegano</p>
+                        <span class="precio">$2.500</span>
+                    </div>
+                    <div class="imagen">
+                        <img src="../assets/imgs/budin-postres.webp" alt="Budin Vegano">
+                    </div>
+                </article>
+            </div>
+
+            
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container py-5">
+            <div class="logo-footer">
+                <img src="../assets/logos/logo.webp" alt="logo de pizzeria">
+            </div>
+            <div class="redes-sociales">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </div>
+        <div class="container">
+            <div class="info-footer py-5">
+                    <h4>Te esperamos</h4>
+                    <p>Dirección: Calle Falsa 123, Palermo, Buenos Aires</p>
+                    <p>Teléfono: +54 11 1234-5678</p>
+                    <p>Email: info@pizzeria.com</p>
+            </div>
+        </div>
+        <div class="container py-5 d-flex justify-content-start">
+            <div class="copy">
+                <p>© 2026 Pizzería La Rinconada. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>

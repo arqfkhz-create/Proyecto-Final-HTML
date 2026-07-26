@@ -13,12 +13,12 @@
     <meta name="author" content="FHCode">
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="./assets/imgs/favicon.png">
+    <link rel="icon" type="image/webp" href="./assets/logos/logo.webp">
 
     <!-- OPEN GRAPH -->
     <meta property="og:title" content="Pizzería La Rinconada">
     <meta property="og:description" content="La mejor pizza artesanal en Palermo, Buenos Aires">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="./assets/logos/logo.webp">
     <meta property="og:url" content="">
 
     <!-- FONTS -->
@@ -45,23 +45,23 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/reservas.html">Reservas</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/locales.html">Locales</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
-                    </li>
-                </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -108,12 +108,12 @@
         <!-- CATEGORIAS -->
         <section class="categorias">
             <div class="container categorias-grid">
-                <div class="categoria-card">Pizzas</div>
-                <div class="categoria-card">Calzones</div>
-                <div class="categoria-card">Empanadas</div>
-                <div class="categoria-card">Bebidas</div>
-                <div class="categoria-card">Postres</div>
-                <div class="categoria-card">Promos</div>
+                <a class="categoria-card" href="../pages/menu.html#pizzas">Pizzas</a>
+                <a class="categoria-card" href="../pages/menu.html#calzones">Calzones</a>
+                <a class="categoria-card" href="../pages/menu.html#empanadas">Empanadas</a>
+                <a class="categoria-card" href="../pages/menu.html#bebidas">Bebidas</a>
+                <a class="categoria-card" href="../pages/menu.html#postres">Postres</a>
+                <a class="categoria-card" href="../pages/menu.html">Promos</a>
             </div>
         </section>
 
@@ -210,15 +210,28 @@
         </article>
     </main>
 
-    <footer class="bg-dark text-light py-5">
+    <footer>
+        <div class="container footer-container py-5">
+            <div class="logo-footer">
+                <img src="./assets/logos/logo.webp" alt="logo de pizzeria">
+            </div>
+            <div class="redes-sociales">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </div>
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <h5>Contacto</h5>
+            <div class="info-footer py-5">
+                    <h4>Te esperamos</h4>
                     <p>Dirección: Calle Falsa 123, Palermo, Buenos Aires</p>
                     <p>Teléfono: +54 11 1234-5678</p>
                     <p>Email: info@pizzeria.com</p>
-                </div>
+            </div>
+        </div>
+        <div class="container py-5 d-flex justify-content-start">
+            <div class="copy">
+                <p>© 2026 Pizzería La Rinconada. Todos los derechos reservados.</p>
             </div>
         </div>
     </footer>

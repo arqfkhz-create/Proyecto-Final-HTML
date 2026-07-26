@@ -1,6 +1,9 @@
+@use "../utilities/variables" as v;
+
 * { 
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
-    font-family: 'Playfair Display', serif;
+    font-family: v.$fuentePrincipal;
+    text-decoration: none;
 }
