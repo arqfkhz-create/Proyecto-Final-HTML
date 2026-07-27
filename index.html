@@ -8,9 +8,28 @@
 
     <!-- SEO --> 
     <meta name="keywords" content="pizzería delivery Palermo Buenos Aires, pizza masa madre Palermo, delivery pizza artesanal Buenos Aires, mejor pizza Palermo domicilio, pizza fermentación natural Buenos Aires">
-    <meta name="description" content="">
+    <meta name="description" content="Pizzería artesanal en Palermo. Pizzas de masa madre, calzones, empanadas, promociones y delivery en Buenos Aires.">
     <meta name="owner" content="Pizzería La Rinconada">
-    <meta name="author" content="FHCode">
+    <meta name="author" content="FHCoderguy">
+
+    <!--GEO-->
+    <script type="application/ld+json">
+        {
+        "@context":"https://schema.org",
+        "@type":"Restaurant",
+        "name":"Pizzería La Rinconada",
+        "description":"Pizzería artesanal especializada en masa madre, calzones y empanadas.",
+        "servesCuisine":"Pizza",
+        "priceRange":"$$",
+        "telephone":"+54 11 3815-4828",
+        "address":{
+            "@type":"PostalAddress",
+            "addressLocality":"Palermo",
+            "addressRegion":"Buenos Aires",
+            "addressCountry":"AR"
+            }
+        }
+    </script>
 
     <!-- FAVICON -->
     <link rel="icon" type="image/webp" href="./assets/logos/logo.webp">
@@ -47,7 +66,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="./pages/menu.html">Menu</a>
@@ -56,7 +75,7 @@
                         <a class="nav-link" href="./pages/reservas.html">Reservas</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./pages/locales.html">Locales</a>
+                        <a class="nav-link" href="./pages/preguntas-frecuentes.html">Preguntas Frecuentes</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -84,21 +103,21 @@
                         <div class="promo-card">
                             <!-- BADGE -->
                             <span class="badge-descuento">32% OFF</span>
-                            <img src="./assets/imgs/calzon-cheddar-promo.jpeg" alt="calzon cheddar" class="img-fluid">
+                            <img src="./assets/imgs/calzon-cheddar-promo.jpeg" alt="calzon cortado con cheddar derretido" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="promo-card">
                             <!-- BADGE -->
                             <span class="badge-descuento">2x1 solo martes</span>
-                            <img src="./assets/imgs/principal-promo.webp" alt="pizza de queso" class="img-fluid">
+                            <img src="./assets/imgs/principal-promo.webp" alt="Pizza de mozzarella recién horneada" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="promo-card">
                             <!-- BADGE -->
                             <span class="badge-descuento">20% OFF</span>
-                            <img src="./assets/imgs/calzon-promo.webp" alt="calzon muzzarella y albondigas" class="img-fluid">
+                            <img src="./assets/imgs/calzon-promo.webp" alt="calzon de muzzarella derretida con albondigas" class="img-fluid">
                         </div>  
                     </div>
                 </div>
@@ -223,10 +242,10 @@
         </div>
         <div class="container">
             <div class="info-footer py-5">
-                    <h4>Te esperamos</h4>
-                    <p>Dirección: Calle Falsa 123, Palermo, Buenos Aires</p>
-                    <p>Teléfono: +54 11 1234-5678</p>
-                    <p>Email: info@pizzeria.com</p>
+                <h4>Te esperamos</h4>
+                <p>Dirección: Calle Falsa 123, Palermo, Buenos Aires</p>
+                <p>Teléfono: +54 11 1234-5678</p>
+                <p>Email: info@pizzeria.com</p>
             </div>
         </div>
         <div class="container py-5 d-flex justify-content-start">
