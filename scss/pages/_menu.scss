@@ -46,6 +46,19 @@
     overflow: hidden;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.precio {
+    margin-top: auto;
+    font-family: v.$fuenteTitulos;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
 .info h3 {
     font-family: v.$fuenteTitulos;
     font-size: 1.5rem;
