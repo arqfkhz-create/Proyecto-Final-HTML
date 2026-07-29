@@ -35,10 +35,19 @@
     <link rel="icon" type="image/webp" href="./assets/logos/logo.webp">
 
     <!-- OPEN GRAPH -->
-    <meta property="og:title" content="Pizzería La Rinconada">
-    <meta property="og:description" content="La mejor pizza artesanal en Palermo, Buenos Aires">
-    <meta property="og:image" content="./assets/logos/logo.webp">
-    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:title"content="Pizzería La Rinconada">
+    <meta property="og:description"content="Pizzería artesanal en Palermo. Pizzas de masa madre, calzones, empanadas y delivery.">
+    <meta property="og:url"content="https://proyecto-final-html-lemon.vercel.app/">
+    <meta property="og:image"content="https://proyecto-final-html-lemon.vercel.app/assets/logos/logo.webp">
+    <meta property="og:site_name"content="Pizzería La Rinconada">
+    <meta property="og:locale"content="es_AR">
+
+    <!--TWITTER CARD-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"content="Pizzería La Rinconada">
+    <meta name="twitter:description"content="Pizzería artesanal en Palermo.">
+    <meta name="twitter:image"content="https://proyecto-final-html-lemon.vercel.app/assets/logos/logo.webp">
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,7 +66,7 @@
 <body>
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-5 sticky-top" aria-label="Menú principal">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Pizzeria La Rinconada</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -229,7 +238,7 @@
         </article>
     </main>
 
-    <footer>
+    <footer aria-label="Pie de pagina">
         <div class="container footer-container py-5">
             <div class="logo-footer">
                 <img src="./assets/logos/logo.webp" alt="logo de pizzeria">
