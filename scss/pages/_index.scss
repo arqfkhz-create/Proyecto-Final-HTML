@@ -145,11 +145,6 @@
 @media (max-width: 992px) {
     .categorias-grid {
         grid-template-columns: repeat(4, 1fr);
-    }
-    
-    .promociones .row > div:nth-child(3) {
-        display: none;
-    }
 }
 
 
@@ -160,9 +155,6 @@
     }
 }
 
-
-/* Tablet */
-@media (max-width: 992px) {
-    .categorias-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .promociones .row > div:nth-child(3) { display: none; }
+}
