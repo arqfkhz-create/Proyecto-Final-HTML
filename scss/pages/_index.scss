@@ -8,7 +8,7 @@
     position: relative;
     border-radius: 16px;
     overflow: hidden;
-    height: 340px;
+    height: 350px;
 }
 
 /* imagen */
@@ -146,7 +146,12 @@
     .categorias-grid {
         grid-template-columns: repeat(4, 1fr);
     }
+    
+    .promociones .row > div:nth-child(3) {
+        display: none;
+    }
 }
+
 
 /* Mobile */
 @media (max-width: 576px) {
@@ -154,3 +159,10 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+
+/* Tablet */
+@media (max-width: 992px) {
+    .categorias-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
